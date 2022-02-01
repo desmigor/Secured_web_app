@@ -1,0 +1,23 @@
+{
+  "name": "secured_web_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desmigor/Secured_web_app.git"
+  },
+  "author": "Igor Mpore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/desmigor/Secured_web_app/issues"
+  },
+  "homepage": "https://github.com/desmigor/Secured_web_app#readme",
+  "dependencies": {
+    "pg": "^8.7.1"
+  },
+  "devDependencies": {}
+}
