@@ -5,6 +5,17 @@
             "name": "http://127.0.0.1:5500",
             "request": "launch",
             "url": "http://127.0.0.1:5500"
+        },
+        {
+            "name": "Docker Node.js Launch",
+            "type": "docker",
+            "request": "launch",
+            "preLaunchTask": "docker-run: debug",
+            "platform": "node",
+            "node": {
+                "package": "${workspaceFolder}/node_modules/split2/package.json",
+                "localRoot": "${workspaceFolder}/node_modules/split2"
+            }
         }
     ]
 }

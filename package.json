@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "dev": "node server.js",
     "test": "node server.js"
   },
   "repository": {
@@ -17,7 +18,10 @@
   },
   "homepage": "https://github.com/desmigor/Secured_web_app#readme",
   "dependencies": {
+    "express": "^4.17.2",
     "pg": "^8.7.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
