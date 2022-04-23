@@ -5,7 +5,9 @@ WebToy is a simplified login/signup secured web application. The Front End is de
 # Application UI
 
 1. Web App Login Screen
+
 ![](images/login.png)
 
 2. Web app Signup Screen
+
 ![](images/signup.png)
